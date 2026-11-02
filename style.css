@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+}
+
+.hLinks
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hLinks a
+{
+    font-weight: bold;
+    color: #274C5B;
+    text-decoration: none;
+}
+
+#cart
+{
+    width: 120px;
+}
+
+.hInteractions
+{
+    display: flex;
+    align-items: center;
+}
+
+.hInteractions img
+{
+    width: 270px;
+}
+
+#banners
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.about
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 48px max(32px, calc((100vw - 1060px) / 2));
+    background: #F9F8F8;
+}
+
+.aboutImage
+{
+    display: block;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+}
+
+.aboutText
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 460px;
+    color: #525C60;
+    font-size: 12px;
+    line-height: 1.5;
+    gap: 14px;
+}
+
+#aboutUs
+{
+    color: #7EB693;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.aboutText h1
+{
+    color: #274C5B;
+    font-size: 32px;
+    line-height: 1.15;
+}
+
+.aboutFeatures
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.aboutFeature
+{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.aboutFeature img
+{
+    display: block;
+    width: 64px;
+    height: 64px;
+    flex: 0 0 64px;
+    object-fit: contain;
+}
+
+.aboutFeature h2
+{
+    margin-bottom: 4px;
+    color: #274C5B;
+    font-size: 16px;
+}
+
+.aboutText button
+{
+    align-self: flex-start;
+    margin-top: 8px;
+    padding: 16px 30px;
+    border: 0;
+    border-radius: 9px;
+    background: #274C5B;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aboutText button span
+{
+    margin-left: 6px;
+}
+
+@media (max-width: 760px)
+{
+    .about
+    {
+        flex-direction: column;
+        gap: 24px;
+        padding: 36px 24px;
+    }
+
+    .aboutImage
+    {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .aboutText
+    {
+        width: 100%;
+    }
+
+    .aboutText h1
+    {
+        font-size: 28px;
+    }
+}
